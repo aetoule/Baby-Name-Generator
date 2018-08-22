@@ -1,0 +1,82 @@
+.Header__parent {
+    width: 100%;
+    height: 200px;
+    /* box-shadow: 0 1px 3px 0 white, 0 2px 2px 0 white, 0 0 2px 0 white; */
+    /* background-color: ; */
+  }
+
+  hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .Header__content {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0px 20px;
+  }
+  
+  .Header__company-info {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  #Header__company-icon {
+    font-size: 35px;
+    color: #2aabe2;
+    margin-right: 5px;
+  }
+  
+  .Header__profile {
+    border: 1px solid #2aabe2;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+  }
+  
+  .Header__right {
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+
+  h1 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    padding: 10px 0 0 8px;
+    font-size: 24px;
+    /* text-align: center; */
+    align-content: center;
+    white-space: pre-wrap;
+    color: white;
+  }
+
+  
+
+  h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color: white;
+  }
+
+  .baby-image {
+    padding: 10px 5px 0 30px;
+    height: 40px;
+    width: 40px
+  }
+
+  p {
+    color: white;
+  }

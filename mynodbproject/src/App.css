@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+  /* background: #414141; */
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  height: 100vh;
+}
+
+/* .App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+} */
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+/* widens the area of the name generator section. will style to be the focal point of the app */
+.generate_section {
+  margin: 20px;
+}
+
+.App_content{
+  display: flex;
+}
+
+.Generate_Names_Based_On_Filter {
+  max-width: 400px;
+  max-height: 343px;
+}
+.App_content .Generate_Names_Based_On_Filter {
+  background: lightblue;
+  border-radius: 25px;
+  flex-direction: column;
+  flex: 1;
+  margin: 0 90px 0 100px;
+}
+
+.App_content .App_AddToFavorites {
+  flex: 1;
+  /* background: lightpink; */
+  flex-direction: column;
+  margin: 0 90px 0 40px;
+}
+
+p {
+  color: white;
+}
+
+/* button {
+
+} */
+
+.Add_To_Favorites_Button { 
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  position: absolute;
+  top: 450px;
+  right: 1033px;
+}
+
+.input_box {
+  border-radius: 50px;
+  height: 25px;
+}
+
+.BigName {
+  font-size: 58px;
+  color: white;
+  font-family:'M PLUS Rounded 1c', sans-serif;
+  margin: 10px 0 30px 0;
+}
+
+#Filter {
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  margin: 20px;
+}
+
+.ShowFavesListButton {
+  width: 150px;
+  height: 30px;
+  border-radius: 50px;
+  margin: 20px;
+  background: white;
+  box-shadow: 5px;
+}
+
+.UpdateDeleteButton {
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+}
